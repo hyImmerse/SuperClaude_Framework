@@ -1,0 +1,75 @@
+{
+  "mcpServers": {
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ],
+      "disabled": false
+    },
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ],
+      "env": {
+        "UPSTASH_REDIS_REST_URL": "",
+        "UPSTASH_REDIS_REST_TOKEN": ""
+      },
+      "disabled": false
+    },
+    "magic": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@21st-dev/magic"
+      ],
+      "disabled": false
+    },
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@executeautomation/playwright-mcp-server"
+      ],
+      "disabled": false
+    },
+    "serena": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@serenaai/mcp-server"
+      ],
+      "disabled": false
+    },
+    "tavily": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@tavily/mcp-server"
+      ],
+      "env": {
+        "TAVILY_API_KEY": ""
+      },
+      "disabled": false
+    },
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-chrome-devtools"
+      ],
+      "disabled": false
+    },
+    "morphllm": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@morphllm/mcp-server"
+      ],
+      "disabled": false
+    }
+  }
+}
